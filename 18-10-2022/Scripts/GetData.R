@@ -11,7 +11,8 @@ tuesdata <- tidytuesdayR::tt_load('2022-10-18')
 episodes <- tuesdata$episodes
 dialogues <- tuesdata$stranger_things_all_dialogue
 
-
+saveRDS(episodes, "18-10-2022/Data/episodes.rds")
+saveRDS(dialogues, "18-10-2022/Data/dialogues.rds")
 
 # Or read in the data manually
 
